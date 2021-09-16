@@ -15,4 +15,9 @@ which, while showing what happens is pretty much scrible
 however if you use the graphing method described in the notebook page you can get this
 ![download 7](https://user-images.githubusercontent.com/18386662/133195486-02bdfb3c-a308-4812-a665-9180d7f9547e.png)
 
-where you can track the how regions of the curve move to other regions 
+where you can track the how regions of the curve move to other regions.
+
+Make sure you check your data buy plotting with no offset in the colours "coli[i]" instead of "coli[i+1]", with no offset
+the colour of each point should match its background.
+I had a problems with ifinities messing up the rescaling that cause a problem with the mapping so doing that check first is a good
+idea.
